@@ -1,7 +1,19 @@
 export default {
-    logo: <span>My Nextra Documentation</span>,
+    logo: <span>AstroLog</span>,
     project: {
-        link: 'https://github.com/shuding/nextra'
+        link: 'https://github.com/astrolog-app'
+    },
+    editLink: {
+        component: null
+    },
+    feedback: {
+        content: null
+    },
+    color: {
+        hue: 5,
+        saturation: 90
+    },
+    footer: {
+        content: <div>AstroLog</div>
     }
-    // ... other theme options
 }
